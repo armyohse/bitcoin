@@ -19,48 +19,48 @@ Different approach to time series problems.
 
 What is about :
 
-![Alt text](/Users/seyoungoh/Desktop/2.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/2.png)
 
 Flow model :
 
-![Alt text](/Users/seyoungoh/Desktop/3.pdf)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/3.pdf)
 
 # Data
 
 Data from Korbit API (Korean trasaction bitcoin history) 2016/06/28 to 2017/07/01
 
-![Alt text](/Users/seyoungoh/Desktop/4.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/4.png)
 
 Unlikely from research paper it was accumulated data.  Only used last, Volume columns.  
 
 # Model
 
 * Pre-processing
-![Alt text](/Users/seyoungoh/Desktop/5.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/5.png)
 
 * Scaling
-![Alt text](/Users/seyoungoh/Desktop/6.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/6.png)
 "last" & "volume" scaling max-min = 1
 The graph save every 30 minutes in image file(png)
 
 * First model
-![Alt text](/Users/seyoungoh/Desktop/7.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/7.png)
 Graph didn't seem to be meaningful
 
 * Parameter
-![Alt text](/Users/seyoungoh/Desktop/8.pdf)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/8.pdf)
 
 * Second model
-![Alt text](/Users/seyoungoh/Desktop/9.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/9.png)
 After modified parameter (t+5) value will be greater than t.  
 y=1 -> up   y=2 -> down
 
 * Image process
-![Alt text](/Users/seyoungoh/Desktop/10.png)       
-![Alt text](/Users/seyoungoh/Desktop/11.png)    
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/10.png)       
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/11.png)    
 
 * Model Graph
-![Alt text](/Users/seyoungoh/Desktop/12.png)  
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/12.png)  
 * first convolution (5.5 filters) 64
 * second convolution (7.7 filter) 32
 * max_pooling
@@ -70,7 +70,7 @@ y=1 -> up   y=2 -> down
 * square_mean loss
 
 # Test
-![Alt text](/Users/seyoungoh/Desktop/13.png)  
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/13.png)  
 
 
 # Tune
@@ -81,4 +81,4 @@ y=1 -> up   y=2 -> down
 * hidden_dim
 * learning_rate
 * model structure
-![Alt text](/Users/seyoungoh/Desktop/14.png)  
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/14.png)  
