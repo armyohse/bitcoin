@@ -14,7 +14,7 @@ Why CNN :
 
 Different approach to time series problems. 
 
-![Alt text](/Users/seyoungoh/Desktop/1.png)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/1.png)
   
 
 What is about :
