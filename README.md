@@ -23,7 +23,7 @@ What is about :
 
 Flow model :
 
-![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/3.pdf)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/3.png)
 
 # Data
 
@@ -48,7 +48,7 @@ The graph save every 30 minutes in image file(png)
 Graph didn't seem to be meaningful
 
 * Parameter
-![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/8.pdf)
+![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/8.png)
 
 * Second model
 ![Alt text](https://github.com/armyohse/bitcoin/blob/master/pic/9.png)
